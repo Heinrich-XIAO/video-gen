@@ -6,11 +6,12 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@google-cloud/text-to-speech": "^5.6.0",
     "@remotion/cli": "4.0.231",
+    "@remotion/tailwind": "4.0.231",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "remotion": "4.0.231",
-    "@remotion/tailwind": "4.0.231"
+    "remotion": "4.0.231"
   },
   "devDependencies": {
     "@remotion/eslint-config": "4.0.231",

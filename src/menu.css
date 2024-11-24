@@ -1,0 +1,696 @@
+.FTChatIphone_phoneContainer__hR_Md{
+    width:475px;
+    height:300px;
+    border:1px solid #ccc;
+    border-radius:40px;
+    background-color:#1c1c1e;
+    box-shadow:0 4px 8px rgba(0,0,0,.2);
+    position:relative
+}
+.FTChatIphone_dynamicIsland__ge02O{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:5px 0;
+    color:#000;
+    font-size:14px;
+    position:absolute;
+    top:0;
+    width:100%
+}
+.FTChatIphone_dynamicIslandInner__6XfR1{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:90%;
+    max-width:340px;
+    position:relative
+}
+.FTChatIphone_time__eRUIM{
+    position:absolute;
+    left:38px;
+    top:12px
+}
+.FTChatIphone_statusIcons__U0__R{
+    display:flex;
+    align-items:center;
+    position:absolute;
+    right:32px;
+    top:10px
+}
+.FTChatIphone_statusIcons__U0__R img{
+    width:18px;
+    margin-left:8px
+}
+.FTChatIphone_dynamicIslandCenter__rIL5F{
+    position:absolute;
+    top:4px;
+    left:50%;
+    transform:translateX(-50%);
+    width:110px;
+    height:30px;
+    background-color:#000;
+    border-radius:50px
+}
+.FTChatIphone_statusIcons__U0__R img:last-child{
+    width:25px;
+    height:auto
+}
+.FTChatIphone_chatContainer__LlZAL{
+    margin-top:44px
+}
+.FTChatIphone_chatHeader__j0ND5{
+    background-color:#fff;
+    border-bottom:1px solid #e5e5ea;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px
+}
+.FTChatIphone_chatHeaderDark__JLXAs,.FTChatIphone_chatHeader__j0ND5{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px 16px;
+    position:relative
+}
+.FTChatIphone_chatHeaderDark__JLXAs{
+    background-color:#1f1e1f;
+    border-bottom:1px solid #1f1e1f;
+    border-top-left-radius:40px;
+    border-top-right-radius:40px
+}
+.FTChatIphone_backButton__r_CkB{
+    display:flex;
+    align-items:center;
+    position:absolute;
+    left:16px
+}
+.FTChatIphone_backButton__r_CkB img{
+    width:35%;
+    height:35%
+}
+.FTChatIphone_contactInfo__NL2rV{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto;
+    flex-direction:column;
+    position:relative
+}
+.FTChatIphone_contactAvatar__PlEcG{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    background-color:#969da7;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:18px;
+    color:#fff;
+    overflow:hidden
+}
+.FTChatIphone_contactName__Y_JgW{
+    font-size:12px;
+    color:#000;
+    display:flex;
+    align-items:center
+}
+.FTChatIphone_contactNameDark__mIN1R{
+    font-size:12px;
+    color:#fff;
+    display:flex;
+    align-items:center
+}
+.FTChatIphone_contactName__Y_JgW img{
+    margin-left:2px;
+    width:7px;
+    height:7px;
+    position:relative;
+    top:1px
+}
+.FTChatIphone_videoButton__0ftat{
+    display:flex;
+    align-items:center;
+    position:absolute;
+    right:0;
+    padding-left:330px
+}
+.FTChatIphone_videoButton__0ftat img{
+    width:60%;
+    height:60%
+}
+.FTChatIphone_chatMessage__1bC1R{
+    padding:10px 16px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    height:300px;
+    overflow-y:auto
+}
+.FTChatIphone_messageBubbleBlue__v1erR{
+    background-color:#007aff
+}
+.FTChatIphone_messageBubbleBlue__v1erR,.FTChatIphone_messageBubbleGreen__0aDGO{
+    color:#fff;
+    padding:10px 15px;
+    border-radius:20px;
+    max-width:220px;
+    font-size:16px;
+    position:relative;
+    align-self:flex-end;
+    overflow-wrap:break-word;
+    line-height:20px
+}
+.FTChatIphone_messageBubbleGreen__0aDGO{
+    background-color:#35c659
+}
+.FTChatIphone_messageBubbleGray__w8UbJ{
+    background-color:#e5e5ea;
+    color:#000;
+    overflow-wrap:break-word
+}
+.FTChatIphone_messageBubbleGrayDark__InpzI,.FTChatIphone_messageBubbleGray__w8UbJ{
+    align-self:flex-start;
+    padding:10px 15px;
+    border-radius:20px;
+    max-width:220px;
+    font-size:16px;
+    position:relative;
+    line-height:20px
+}
+.FTChatIphone_messageBubbleGrayDark__InpzI{
+    background-color:#26242b;
+    color:#fff
+}
+.FTChatIphone_messageBubbleBlue__v1erR svg,.FTChatIphone_messageBubbleGreen__0aDGO svg,.FTChatIphone_messageBubble__6ZZHa svg{
+    position:absolute;
+    bottom:-2px;
+    right:-2px
+}
+.FTChatIphone_messageBubbleGrayDark__InpzI svg,.FTChatIphone_messageBubbleGray__w8UbJ svg{
+    position:absolute;
+    left:-2px;
+    bottom:-2px;
+    right:auto;
+    transform:scaleX(-1)
+}
+.FTChatIphone_unreadMessagesCount__F_Ziy{
+    position:absolute;
+    background-color:#1577ee;
+    padding:0 5px;
+    left:14px;
+    border-radius:15px;
+    font-size:11px;
+    color:#fff;
+    white-space:nowrap;
+    min-width:15px;
+    text-align:center;
+    display:inline-block;
+    height:18px;
+    line-height:18px
+}
+.FTChatInstagram_cssHeader__cVdht{
+    background-color:#fefffe
+}
+.FTChatInstagram_cssHeaderDark__1Dtp_,.FTChatInstagram_cssHeader__cVdht{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:relative;
+    color:#fff;
+    padding-top:4px;
+    padding-bottom:4px;
+    border-radius:20px
+}
+.FTChatInstagram_cssHeaderDark__1Dtp_{
+    background-color:#000
+}
+.FTChatInstagram_cssHeaderInfos__2iMyw{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    position:relative
+}
+.FTChatInstagram_cssHeaderImg__Vu_qn{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    max-width:100%;
+    height:auto;
+    width:100%;
+    border-radius:20px
+}
+.FTChatInstagram_cssHeaderOverlayInfo__b_VGa{
+    background-color:#fefffe
+}
+.FTChatInstagram_cssHeaderOverlayInfoDark__vOd__,.FTChatInstagram_cssHeaderOverlayInfo__b_VGa{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    position:absolute;
+    top:8px;
+    left:14%;
+    right:34%;
+    height:100%;
+    height:auto;
+    display:flex;
+    align-items:center;
+    gap:8px
+}
+.FTChatInstagram_cssHeaderOverlayInfoDark__vOd__{
+    background-color:#000
+}
+.FTChatInstagram_cssUserImgSmallWrapper__ip6AL{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    width:34px;
+    height:34px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(0deg,#878b94,#a4a8b4);
+    position:relative;
+    overflow:hidden
+}
+.FTChatInstagram_cssUserImgSmall__VCSql{
+    max-width:100%;
+    height:100%;
+    width:100%;
+    -o-object-fit:cover;
+    object-fit:cover
+}
+.FTChatInstagram_cssUserImgSmall__VCSql,.FTChatInstagram_cssUserNameSmallWrapper__1JONl{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0
+}
+.FTChatInstagram_cssUserNameSmall__aH5ZI{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    color:#000;
+    font-weight:600;
+    font-size:14px
+}
+.FTChatInstagram_cssUserNameSmallDark__NHnpn{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    color:#fff;
+    font-weight:600;
+    font-size:14px
+}
+.FTChatInstagram_cssUser__Y0nLB{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    position:relative
+}
+.FTChatInstagram_cssUserName__k7TA5{
+    color:#000
+}
+.FTChatInstagram_cssUserNameDark__B76Sv,.FTChatInstagram_cssUserName__k7TA5{
+    box-sizing:border-box;
+    margin:8px 0 0;
+    min-width:0;
+    text-align:center;
+    font-weight:600
+}
+.FTChatInstagram_cssUserNameDark__B76Sv{
+    color:#fff
+}
+.FTChatInstagram_cssUserImg__nXT5y{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    max-width:100%;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    -o-object-fit:cover;
+    object-fit:cover
+}
+.FTChatInstagram_phoneWrapper__nIMRy{
+    float:right;
+    padding-bottom:25px;
+    padding-top:20px;
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    font-family:Inter,sans-serif,AppleColorEmoji,Noto Sans KR,Noto Sans JP,Noto Sans SC,Noto Sans Arabic,Noto Sans Devanagari,Noto Sans Thai;
+    word-break:break-word;
+    overflow-wrap:break-word;
+    -webkit-hyphens:auto;
+    hyphens:auto;
+    border-radius:20px;
+    width:360px
+}
+.FTChatInstagram_phone__m4hgG{
+    background-color:#fefffe
+}
+.FTChatInstagram_phoneDark__Zi2Sg,.FTChatInstagram_phone__m4hgG{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    font-size:14px;
+    line-height:1.4;
+    color:#000;
+    border-radius:20px
+}
+.FTChatInstagram_phoneDark__Zi2Sg{
+    background-color:#000
+}
+.FTChatInstagram_body__z44E6{
+    background:#fefffe
+}
+.FTChatInstagram_bodyDark__aIAe0,.FTChatInstagram_body__z44E6{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    height:300px;
+    overflow-y:auto;
+    border-radius:20px
+}
+.FTChatInstagram_bodyDark__aIAe0{
+    background:#000
+}
+.FTChatInstagram_bodyScreenshot__zfKhI{
+    background:#fefffe
+}
+.FTChatInstagram_bodyScreenshotDark__Chl1w,.FTChatInstagram_bodyScreenshot__zfKhI{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    height:600px;
+    overflow-y:auto;
+    border-radius:20px
+}
+.FTChatInstagram_bodyScreenshotDark__Chl1w{
+    background:#000
+}
+.FTChatInstagram_bubbleWrapBlue__rnKks{
+    text-align:right
+}
+.FTChatInstagram_bubbleWrapBlue__rnKks,.FTChatInstagram_bubbleWrapGrey__kSYNq{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    padding:0 10px 8px 44px;
+    position:relative;
+    display:block
+}
+.FTChatInstagram_bubbleWrapGrey__kSYNq{
+    text-align:left
+}
+.FTChatInstagram_bubbleGrey__nqmPS{
+    background:#eeefee;
+    color:#000
+}
+.FTChatInstagram_bubbleGreyDark__nsbZ6,.FTChatInstagram_bubbleGrey__nqmPS{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    padding:7px 12px;
+    border-radius:17px;
+    display:inline-block;
+    position:relative;
+    max-width:85%;
+    text-align:left
+}
+.FTChatInstagram_bubbleGreyDark__nsbZ6{
+    background:#262626;
+    color:#fff
+}
+.FTChatInstagram_bubbleBlue__q_aEn{
+    background:#2675fd
+}
+.FTChatInstagram_bubbleBlueDark__ouwnh,.FTChatInstagram_bubbleBlue__q_aEn{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    padding:7px 12px;
+    border-radius:17px;
+    display:inline-block;
+    position:relative;
+    max-width:85%;
+    text-align:left;
+    color:#fff
+}
+.FTChatInstagram_bubbleBlueDark__ouwnh{
+    background:#7743ea
+}
+.FTChatInstagram_userImage__PdOm5{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    max-width:100%;
+    width:26px;
+    height:26px;
+    border-radius:50%;
+    -o-object-fit:cover;
+    object-fit:cover;
+    position:absolute;
+    left:10px;
+    bottom:8px
+}
+.FTChatInstagram_imageAsMessage__gVqvS{
+    height:auto;
+    max-width:200px;
+    max-height:200px;
+    border-radius:17px;
+    display:inline-block;
+    position:relative;
+    box-sizing:border-box
+}
+#FTChatInstagram_bubble-0__cKiw0{
+    padding-top:10px
+}
+.FTChatWhatsapp_phoneWrapper__ivf8i{
+    float:right;
+    width:360px;
+    padding-bottom:25px;
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    font-family:Inter,sans-serif,AppleColorEmoji,Noto Sans KR,Noto Sans JP,Noto Sans SC,Noto Sans Arabic,Noto Sans Devanagari,Noto Sans Thai;
+    word-break:break-word;
+    overflow-wrap:break-word;
+    -webkit-hyphens:auto;
+    hyphens:auto
+}
+.FTChatWhatsapp_phone__eP4c_{
+    width:360px;
+    min-height:439px;
+    box-sizing:border-box;
+    min-width:0;
+    font-size:14px;
+    line-height:1.4;
+    color:#000;
+    border-radius:20px;
+    overflow:hidden;
+    margin:160px 0 0
+}
+.FTChatWhatsapp_body__6Gh3N{
+    background-image:url(https://www.aicut.pro/images/fake-text/whatsapp/Whatsapp_ios_bg_light.webp)
+}
+.FTChatWhatsapp_bodyDark__08jsM,.FTChatWhatsapp_body__6Gh3N{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    background-position:50%;
+    height:300px;
+    overflow-y:auto;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px
+}
+.FTChatWhatsapp_bodyDark__08jsM{
+    background-image:url(https://www.aicut.pro/images/fake-text/whatsapp/Whatsapp_ios_bg_dark.webp)
+}
+.FTChatWhatsapp_bodyScreenshot__RSVv_{
+    background-image:url(https://www.aicut.pro/images/fake-text/whatsapp/Whatsapp_ios_bg_light.webp)
+}
+.FTChatWhatsapp_bodyScreenshotDark__MR56J,.FTChatWhatsapp_bodyScreenshot__RSVv_{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    background-position:50%;
+    height:812px;
+    overflow-y:auto;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px
+}
+.FTChatWhatsapp_bodyScreenshotDark__MR56J{
+    background-image:url(https://www.aicut.pro/images/fake-text/whatsapp/Whatsapp_ios_bg_dark.webp)
+}
+.FTChatWhatsapp_cssHeader__GxNLX{
+    display:flex;
+    align-items:center;
+    padding:8px 20px;
+    background-color:#fff;
+    position:relative;
+    gap:16px
+}
+.FTChatWhatsapp_cssArrow__xt8lS,.FTChatWhatsapp_cssCameraPhone__IGjKy,.FTChatWhatsapp_cssHeader__GxNLX{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0
+}
+.FTChatWhatsapp_cssCameraPhone__IGjKy{
+    position:absolute;
+    top:15px;
+    right:15px
+}
+.FTChatWhatsapp_cssCameraPhoneImage__tdBvn{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    max-width:100%;
+    height:21px
+}
+.FTChatWhatsapp_cssUser___ca32{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0
+}
+.FTChatWhatsapp_cssUserName__k_mEt{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    color:#000;
+    font-weight:700;
+    font-size:14px
+}
+.FTChatWhatsapp_cssUserStatus__oL5YT{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    color:#9e9e9e;
+    font-weight:700;
+    font-size:12px
+}
+.FTChatWhatsapp_cssUserIcon__ss1ys{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(0deg,#878b94,#a4a8b4);
+    position:relative;
+    overflow:hidden
+}
+.FTChatWhatsapp_cssUserImg__zltm3{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    max-width:100%;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    -o-object-fit:cover;
+    object-fit:cover;
+    -o-object-position:center center;
+    object-position:center center
+}
+.FTChatWhatsapp_bubbleWrapGreen__Y53LY{
+    text-align:right
+}
+.FTChatWhatsapp_bubbleWrapGreen__Y53LY,.FTChatWhatsapp_bubbleWrapGrey__Ij7hj{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    padding:10px 20px 6px;
+    overflow-wrap:break-word
+}
+.FTChatWhatsapp_bubbleWrapGrey__Ij7hj{
+    text-align:left
+}
+.FTChatWhatsapp_bubbleGreen__s3ozH{
+    background:#e6ffda
+}
+.FTChatWhatsapp_bubbleGreenDark__MLSe5,.FTChatWhatsapp_bubbleGreen__s3ozH{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    padding:4px 5px 6px 7px;
+    border-radius:10px;
+    display:inline-block;
+    position:relative;
+    max-width:85%;
+    text-align:left;
+    box-shadow:0 1px 1px rgba(0,0,0,.13)
+}
+.FTChatWhatsapp_bubbleGreenDark__MLSe5{
+    background:#005c4b;
+    color:#e9edef
+}
+.FTChatWhatsapp_bubbleGrey__sP5E4{
+    background:#fff
+}
+.FTChatWhatsapp_bubbleGreyDark__ESSty,.FTChatWhatsapp_bubbleGrey__sP5E4{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    padding:4px 5px 6px 7px;
+    border-radius:10px;
+    display:inline-block;
+    position:relative;
+    max-width:85%;
+    text-align:left;
+    box-shadow:0 1px 1px rgba(0,0,0,.13)
+}
+.FTChatWhatsapp_bubbleGreyDark__ESSty{
+    background:#383838;
+    color:#e9edef
+}
+.FTChatWhatsapp_greyCorner__lIVIj{
+    left:-8px
+}
+.FTChatWhatsapp_greenCorner__XneTK,.FTChatWhatsapp_greyCorner__lIVIj{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    position:absolute;
+    bottom:0
+}
+.FTChatWhatsapp_greenCorner__XneTK{
+    right:-8px
+}
+.FTChatWhatsapp_imageMessage__lSJ2L{
+    height:auto;
+    max-width:200px;
+    max-height:200px;
+    border-radius:20px;
+    display:inline-block;
+    position:relative;
+    box-sizing:border-box
+}
+.FTChatWhatsapp_cssHeaderDark__Uygih{
+    box-sizing:border-box;
+    background-color:#171717;
+    margin:0;
+    min-width:0;
+    display:flex;
+    align-items:center;
+    padding:8px 20px;
+    position:relative;
+    gap:16px
+}
+.FTChatWhatsapp_cssUserNameDark__IakpA{
+    box-sizing:border-box;
+    margin:0;
+    min-width:0;
+    color:#fff;
+    font-weight:700;
+    font-size:14px
+}
+ 
