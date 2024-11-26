@@ -1,30 +1,27 @@
+import { delayRender, staticFile } from 'remotion';
+import { useCallback, useEffect, useState } from 'react';
+
 export const MyComposition = () => {
-	const messages = [
-		{
-			"person": "a",
-			"message": "Hey, your food is on the way! I’ll be there in 15 minutes!"
-		},
-		{
-			"person": "b",
-			"message": "Hey, Amir! I’m in outer space right now, floating near the moon. Can you get my burger and fries to me here? I’ve been floating without food for way too long!"
-		},
-		{
-			"person": "a",
-			"message": "No problem, I’ll teleport it to you in 20 minutes. Hold tight, and don’t drift away!"
-		},
-		{
-			"person": "b",
-			"message": "You’re amazing, Amir! I’ll send you a generous tip of $4. It’s hard to move around up here, but I’ll make sure you get it!"
-		},
-		{
-			"person": "a",
-			"message": "I’m here, enjoy your meal!"
-		},
-		{
-			"person": "b",
-			"message": "Wow, Amir, you’re truly out of this world!"
+	const [messages, setMessages] = useState<any[]>([]);
+	const [handle] = useState(() => delayRender());
+
+	const fetchData = useCallback(async () => {
+		const script = await (await fetch(staticFile('script.txt'))).text();
+		const messages = []; 
+		console.log(script);
+
+		for (let i = 0; i < script.split('\n').length; i++) {
+			const person = script.split('\n')[i].split(':')[0].trim().toLowerCase() === 'person a' ? 'a' : 'b';
+			const message = script.split('\n')[i].split(':').slice(1).join(':').trim();
+			if (message)
+				messages.push({ person, message });
 		}
-	]
+		console.log(messages);
+		setMessages(messages);
+	}, [handle]);
+	useEffect(() => {
+		fetchData();
+	}, []);
 
   return (
 		<div
